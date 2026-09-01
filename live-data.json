@@ -1,0 +1,1008 @@
+{
+  "season": 2026,
+  "updatedAt": "2026-09-01T19:04:21.498Z",
+  "sources": {
+    "espn": true,
+    "weather": "Open-Meteo at simulation time"
+  },
+  "warnings": [
+    "Daily NFL update has not run yet."
+  ],
+  "teams": {
+    "Arizona Cardinals": {
+      "id": 0,
+      "name": "Arizona Cardinals",
+      "aliases": [
+        "ari",
+        "Cardinals"
+      ],
+      "conference": "NFC West",
+      "location": {
+        "id": 0,
+        "latitude": 33.5276,
+        "longitude": -112.2626,
+        "timezone": "America/Phoenix",
+        "elevation": "1080",
+        "dome": false,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Atlanta Falcons": {
+      "id": 1,
+      "name": "Atlanta Falcons",
+      "aliases": [
+        "atl",
+        "Falcons"
+      ],
+      "conference": "NFC South",
+      "location": {
+        "id": 1,
+        "latitude": 33.7554,
+        "longitude": -84.4008,
+        "timezone": "America/New_York",
+        "elevation": "1050",
+        "dome": true,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Baltimore Ravens": {
+      "id": 2,
+      "name": "Baltimore Ravens",
+      "aliases": [
+        "bal",
+        "Ravens"
+      ],
+      "conference": "AFC North",
+      "location": {
+        "id": 2,
+        "latitude": 39.278,
+        "longitude": -76.6227,
+        "timezone": "America/New_York",
+        "elevation": "40",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Buffalo Bills": {
+      "id": 3,
+      "name": "Buffalo Bills",
+      "aliases": [
+        "buf",
+        "Bills"
+      ],
+      "conference": "AFC East",
+      "location": {
+        "id": 3,
+        "latitude": 42.7738,
+        "longitude": -78.787,
+        "timezone": "America/New_York",
+        "elevation": "600",
+        "dome": false,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Carolina Panthers": {
+      "id": 4,
+      "name": "Carolina Panthers",
+      "aliases": [
+        "car",
+        "Panthers"
+      ],
+      "conference": "NFC South",
+      "location": {
+        "id": 4,
+        "latitude": 35.2258,
+        "longitude": -80.8528,
+        "timezone": "America/New_York",
+        "elevation": "750",
+        "dome": false,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Chicago Bears": {
+      "id": 5,
+      "name": "Chicago Bears",
+      "aliases": [
+        "chi",
+        "Bears"
+      ],
+      "conference": "NFC North",
+      "location": {
+        "id": 5,
+        "latitude": 41.8623,
+        "longitude": -87.6167,
+        "timezone": "America/Chicago",
+        "elevation": "590",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Cincinnati Bengals": {
+      "id": 6,
+      "name": "Cincinnati Bengals",
+      "aliases": [
+        "cin",
+        "Bengals"
+      ],
+      "conference": "AFC North",
+      "location": {
+        "id": 6,
+        "latitude": 39.0955,
+        "longitude": -84.5161,
+        "timezone": "America/New_York",
+        "elevation": "500",
+        "dome": false,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Cleveland Browns": {
+      "id": 7,
+      "name": "Cleveland Browns",
+      "aliases": [
+        "cle",
+        "Browns"
+      ],
+      "conference": "AFC North",
+      "location": {
+        "id": 7,
+        "latitude": 41.5061,
+        "longitude": -81.6995,
+        "timezone": "America/New_York",
+        "elevation": "575",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Dallas Cowboys": {
+      "id": 8,
+      "name": "Dallas Cowboys",
+      "aliases": [
+        "dal",
+        "Cowboys"
+      ],
+      "conference": "NFC East",
+      "location": {
+        "id": 8,
+        "latitude": 32.7473,
+        "longitude": -97.0945,
+        "timezone": "America/Chicago",
+        "elevation": "560",
+        "dome": true,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Denver Broncos": {
+      "id": 9,
+      "name": "Denver Broncos",
+      "aliases": [
+        "den",
+        "Broncos"
+      ],
+      "conference": "AFC West",
+      "location": {
+        "id": 9,
+        "latitude": 39.7439,
+        "longitude": -105.0201,
+        "timezone": "America/Denver",
+        "elevation": "5280",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Detroit Lions": {
+      "id": 10,
+      "name": "Detroit Lions",
+      "aliases": [
+        "det",
+        "Lions"
+      ],
+      "conference": "NFC North",
+      "location": {
+        "id": 10,
+        "latitude": 42.34,
+        "longitude": -83.0456,
+        "timezone": "America/New_York",
+        "elevation": "600",
+        "dome": true,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Green Bay Packers": {
+      "id": 11,
+      "name": "Green Bay Packers",
+      "aliases": [
+        "gb",
+        "Packers"
+      ],
+      "conference": "NFC North",
+      "location": {
+        "id": 11,
+        "latitude": 44.5013,
+        "longitude": -88.0622,
+        "timezone": "America/Chicago",
+        "elevation": "640",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Houston Texans": {
+      "id": 12,
+      "name": "Houston Texans",
+      "aliases": [
+        "hou",
+        "Texans"
+      ],
+      "conference": "AFC South",
+      "location": {
+        "id": 12,
+        "latitude": 29.6847,
+        "longitude": -95.4107,
+        "timezone": "America/Chicago",
+        "elevation": "50",
+        "dome": true,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Indianapolis Colts": {
+      "id": 13,
+      "name": "Indianapolis Colts",
+      "aliases": [
+        "ind",
+        "Colts"
+      ],
+      "conference": "AFC South",
+      "location": {
+        "id": 13,
+        "latitude": 39.7601,
+        "longitude": -86.1639,
+        "timezone": "America/Indiana/Indianapolis",
+        "elevation": "715",
+        "dome": true,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Jacksonville Jaguars": {
+      "id": 14,
+      "name": "Jacksonville Jaguars",
+      "aliases": [
+        "jax",
+        "Jaguars"
+      ],
+      "conference": "AFC South",
+      "location": {
+        "id": 14,
+        "latitude": 30.3239,
+        "longitude": -81.6373,
+        "timezone": "America/New_York",
+        "elevation": "20",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Kansas City Chiefs": {
+      "id": 15,
+      "name": "Kansas City Chiefs",
+      "aliases": [
+        "kc",
+        "Chiefs"
+      ],
+      "conference": "AFC West",
+      "location": {
+        "id": 15,
+        "latitude": 39.0489,
+        "longitude": -94.4839,
+        "timezone": "America/Chicago",
+        "elevation": "900",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Las Vegas Raiders": {
+      "id": 16,
+      "name": "Las Vegas Raiders",
+      "aliases": [
+        "lv",
+        "Raiders"
+      ],
+      "conference": "AFC West",
+      "location": {
+        "id": 16,
+        "latitude": 36.0908,
+        "longitude": -115.183,
+        "timezone": "America/Los_Angeles",
+        "elevation": "2180",
+        "dome": true,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Los Angeles Chargers": {
+      "id": 17,
+      "name": "Los Angeles Chargers",
+      "aliases": [
+        "lac",
+        "Chargers"
+      ],
+      "conference": "AFC West",
+      "location": {
+        "id": 17,
+        "latitude": 33.9535,
+        "longitude": -118.3392,
+        "timezone": "America/Los_Angeles",
+        "elevation": "110",
+        "dome": false,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Los Angeles Rams": {
+      "id": 18,
+      "name": "Los Angeles Rams",
+      "aliases": [
+        "lar",
+        "Rams"
+      ],
+      "conference": "NFC West",
+      "location": {
+        "id": 18,
+        "latitude": 33.9535,
+        "longitude": -118.3392,
+        "timezone": "America/Los_Angeles",
+        "elevation": "110",
+        "dome": false,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Miami Dolphins": {
+      "id": 19,
+      "name": "Miami Dolphins",
+      "aliases": [
+        "mia",
+        "Dolphins"
+      ],
+      "conference": "AFC East",
+      "location": {
+        "id": 19,
+        "latitude": 25.958,
+        "longitude": -80.2389,
+        "timezone": "America/New_York",
+        "elevation": "10",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Minnesota Vikings": {
+      "id": 20,
+      "name": "Minnesota Vikings",
+      "aliases": [
+        "min",
+        "Vikings"
+      ],
+      "conference": "NFC North",
+      "location": {
+        "id": 20,
+        "latitude": 44.9736,
+        "longitude": -93.2575,
+        "timezone": "America/Chicago",
+        "elevation": "840",
+        "dome": true,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "New England Patriots": {
+      "id": 21,
+      "name": "New England Patriots",
+      "aliases": [
+        "ne",
+        "Patriots"
+      ],
+      "conference": "AFC East",
+      "location": {
+        "id": 21,
+        "latitude": 42.0909,
+        "longitude": -71.2643,
+        "timezone": "America/New_York",
+        "elevation": "290",
+        "dome": false,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "New Orleans Saints": {
+      "id": 22,
+      "name": "New Orleans Saints",
+      "aliases": [
+        "no",
+        "Saints"
+      ],
+      "conference": "NFC South",
+      "location": {
+        "id": 22,
+        "latitude": 29.9511,
+        "longitude": -90.0812,
+        "timezone": "America/Chicago",
+        "elevation": "3",
+        "dome": true,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "New York Giants": {
+      "id": 23,
+      "name": "New York Giants",
+      "aliases": [
+        "nyg",
+        "Giants"
+      ],
+      "conference": "NFC East",
+      "location": {
+        "id": 23,
+        "latitude": 40.8135,
+        "longitude": -74.0745,
+        "timezone": "America/New_York",
+        "elevation": "10",
+        "dome": false,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "New York Jets": {
+      "id": 24,
+      "name": "New York Jets",
+      "aliases": [
+        "nyj",
+        "Jets"
+      ],
+      "conference": "AFC East",
+      "location": {
+        "id": 24,
+        "latitude": 40.8135,
+        "longitude": -74.0745,
+        "timezone": "America/New_York",
+        "elevation": "10",
+        "dome": false,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Philadelphia Eagles": {
+      "id": 25,
+      "name": "Philadelphia Eagles",
+      "aliases": [
+        "phi",
+        "Eagles"
+      ],
+      "conference": "NFC East",
+      "location": {
+        "id": 25,
+        "latitude": 39.9008,
+        "longitude": -75.1675,
+        "timezone": "America/New_York",
+        "elevation": "20",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Pittsburgh Steelers": {
+      "id": 26,
+      "name": "Pittsburgh Steelers",
+      "aliases": [
+        "pit",
+        "Steelers"
+      ],
+      "conference": "AFC North",
+      "location": {
+        "id": 26,
+        "latitude": 40.4468,
+        "longitude": -80.0158,
+        "timezone": "America/New_York",
+        "elevation": "730",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "San Francisco 49ers": {
+      "id": 27,
+      "name": "San Francisco 49ers",
+      "aliases": [
+        "sf",
+        "49ers"
+      ],
+      "conference": "NFC West",
+      "location": {
+        "id": 27,
+        "latitude": 37.403,
+        "longitude": -121.97,
+        "timezone": "America/Los_Angeles",
+        "elevation": "40",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Seattle Seahawks": {
+      "id": 28,
+      "name": "Seattle Seahawks",
+      "aliases": [
+        "sea",
+        "Seahawks"
+      ],
+      "conference": "NFC West",
+      "location": {
+        "id": 28,
+        "latitude": 47.5952,
+        "longitude": -122.3316,
+        "timezone": "America/Los_Angeles",
+        "elevation": "20",
+        "dome": false,
+        "grass": false
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Tampa Bay Buccaneers": {
+      "id": 29,
+      "name": "Tampa Bay Buccaneers",
+      "aliases": [
+        "tb",
+        "Buccaneers"
+      ],
+      "conference": "NFC South",
+      "location": {
+        "id": 29,
+        "latitude": 27.9759,
+        "longitude": -82.5033,
+        "timezone": "America/New_York",
+        "elevation": "50",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Tennessee Titans": {
+      "id": 30,
+      "name": "Tennessee Titans",
+      "aliases": [
+        "ten",
+        "Titans"
+      ],
+      "conference": "AFC South",
+      "location": {
+        "id": 30,
+        "latitude": 36.1665,
+        "longitude": -86.7713,
+        "timezone": "America/Chicago",
+        "elevation": "430",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    },
+    "Washington Commanders": {
+      "id": 31,
+      "name": "Washington Commanders",
+      "aliases": [
+        "wsh",
+        "Commanders"
+      ],
+      "conference": "NFC East",
+      "location": {
+        "id": 31,
+        "latitude": 38.9078,
+        "longitude": -76.8645,
+        "timezone": "America/New_York",
+        "elevation": "50",
+        "dome": false,
+        "grass": true
+      },
+      "gamesPlayed": 0,
+      "dataWeight": 0,
+      "raw": {},
+      "model": {}
+    }
+  },
+  "games": [],
+  "venues": {
+    "0": {
+      "id": 0,
+      "latitude": 33.5276,
+      "longitude": -112.2626,
+      "timezone": "America/Phoenix",
+      "elevation": "1080",
+      "dome": false,
+      "grass": false
+    },
+    "1": {
+      "id": 1,
+      "latitude": 33.7554,
+      "longitude": -84.4008,
+      "timezone": "America/New_York",
+      "elevation": "1050",
+      "dome": true,
+      "grass": false
+    },
+    "2": {
+      "id": 2,
+      "latitude": 39.278,
+      "longitude": -76.6227,
+      "timezone": "America/New_York",
+      "elevation": "40",
+      "dome": false,
+      "grass": true
+    },
+    "3": {
+      "id": 3,
+      "latitude": 42.7738,
+      "longitude": -78.787,
+      "timezone": "America/New_York",
+      "elevation": "600",
+      "dome": false,
+      "grass": false
+    },
+    "4": {
+      "id": 4,
+      "latitude": 35.2258,
+      "longitude": -80.8528,
+      "timezone": "America/New_York",
+      "elevation": "750",
+      "dome": false,
+      "grass": false
+    },
+    "5": {
+      "id": 5,
+      "latitude": 41.8623,
+      "longitude": -87.6167,
+      "timezone": "America/Chicago",
+      "elevation": "590",
+      "dome": false,
+      "grass": true
+    },
+    "6": {
+      "id": 6,
+      "latitude": 39.0955,
+      "longitude": -84.5161,
+      "timezone": "America/New_York",
+      "elevation": "500",
+      "dome": false,
+      "grass": false
+    },
+    "7": {
+      "id": 7,
+      "latitude": 41.5061,
+      "longitude": -81.6995,
+      "timezone": "America/New_York",
+      "elevation": "575",
+      "dome": false,
+      "grass": true
+    },
+    "8": {
+      "id": 8,
+      "latitude": 32.7473,
+      "longitude": -97.0945,
+      "timezone": "America/Chicago",
+      "elevation": "560",
+      "dome": true,
+      "grass": false
+    },
+    "9": {
+      "id": 9,
+      "latitude": 39.7439,
+      "longitude": -105.0201,
+      "timezone": "America/Denver",
+      "elevation": "5280",
+      "dome": false,
+      "grass": true
+    },
+    "10": {
+      "id": 10,
+      "latitude": 42.34,
+      "longitude": -83.0456,
+      "timezone": "America/New_York",
+      "elevation": "600",
+      "dome": true,
+      "grass": false
+    },
+    "11": {
+      "id": 11,
+      "latitude": 44.5013,
+      "longitude": -88.0622,
+      "timezone": "America/Chicago",
+      "elevation": "640",
+      "dome": false,
+      "grass": true
+    },
+    "12": {
+      "id": 12,
+      "latitude": 29.6847,
+      "longitude": -95.4107,
+      "timezone": "America/Chicago",
+      "elevation": "50",
+      "dome": true,
+      "grass": false
+    },
+    "13": {
+      "id": 13,
+      "latitude": 39.7601,
+      "longitude": -86.1639,
+      "timezone": "America/Indiana/Indianapolis",
+      "elevation": "715",
+      "dome": true,
+      "grass": false
+    },
+    "14": {
+      "id": 14,
+      "latitude": 30.3239,
+      "longitude": -81.6373,
+      "timezone": "America/New_York",
+      "elevation": "20",
+      "dome": false,
+      "grass": true
+    },
+    "15": {
+      "id": 15,
+      "latitude": 39.0489,
+      "longitude": -94.4839,
+      "timezone": "America/Chicago",
+      "elevation": "900",
+      "dome": false,
+      "grass": true
+    },
+    "16": {
+      "id": 16,
+      "latitude": 36.0908,
+      "longitude": -115.183,
+      "timezone": "America/Los_Angeles",
+      "elevation": "2180",
+      "dome": true,
+      "grass": false
+    },
+    "17": {
+      "id": 17,
+      "latitude": 33.9535,
+      "longitude": -118.3392,
+      "timezone": "America/Los_Angeles",
+      "elevation": "110",
+      "dome": false,
+      "grass": false
+    },
+    "18": {
+      "id": 18,
+      "latitude": 33.9535,
+      "longitude": -118.3392,
+      "timezone": "America/Los_Angeles",
+      "elevation": "110",
+      "dome": false,
+      "grass": false
+    },
+    "19": {
+      "id": 19,
+      "latitude": 25.958,
+      "longitude": -80.2389,
+      "timezone": "America/New_York",
+      "elevation": "10",
+      "dome": false,
+      "grass": true
+    },
+    "20": {
+      "id": 20,
+      "latitude": 44.9736,
+      "longitude": -93.2575,
+      "timezone": "America/Chicago",
+      "elevation": "840",
+      "dome": true,
+      "grass": false
+    },
+    "21": {
+      "id": 21,
+      "latitude": 42.0909,
+      "longitude": -71.2643,
+      "timezone": "America/New_York",
+      "elevation": "290",
+      "dome": false,
+      "grass": false
+    },
+    "22": {
+      "id": 22,
+      "latitude": 29.9511,
+      "longitude": -90.0812,
+      "timezone": "America/Chicago",
+      "elevation": "3",
+      "dome": true,
+      "grass": false
+    },
+    "23": {
+      "id": 23,
+      "latitude": 40.8135,
+      "longitude": -74.0745,
+      "timezone": "America/New_York",
+      "elevation": "10",
+      "dome": false,
+      "grass": false
+    },
+    "24": {
+      "id": 24,
+      "latitude": 40.8135,
+      "longitude": -74.0745,
+      "timezone": "America/New_York",
+      "elevation": "10",
+      "dome": false,
+      "grass": false
+    },
+    "25": {
+      "id": 25,
+      "latitude": 39.9008,
+      "longitude": -75.1675,
+      "timezone": "America/New_York",
+      "elevation": "20",
+      "dome": false,
+      "grass": true
+    },
+    "26": {
+      "id": 26,
+      "latitude": 40.4468,
+      "longitude": -80.0158,
+      "timezone": "America/New_York",
+      "elevation": "730",
+      "dome": false,
+      "grass": true
+    },
+    "27": {
+      "id": 27,
+      "latitude": 37.403,
+      "longitude": -121.97,
+      "timezone": "America/Los_Angeles",
+      "elevation": "40",
+      "dome": false,
+      "grass": true
+    },
+    "28": {
+      "id": 28,
+      "latitude": 47.5952,
+      "longitude": -122.3316,
+      "timezone": "America/Los_Angeles",
+      "elevation": "20",
+      "dome": false,
+      "grass": false
+    },
+    "29": {
+      "id": 29,
+      "latitude": 27.9759,
+      "longitude": -82.5033,
+      "timezone": "America/New_York",
+      "elevation": "50",
+      "dome": false,
+      "grass": true
+    },
+    "30": {
+      "id": 30,
+      "latitude": 36.1665,
+      "longitude": -86.7713,
+      "timezone": "America/Chicago",
+      "elevation": "430",
+      "dome": false,
+      "grass": true
+    },
+    "31": {
+      "id": 31,
+      "latitude": 38.9078,
+      "longitude": -76.8645,
+      "timezone": "America/New_York",
+      "elevation": "50",
+      "dome": false,
+      "grass": true
+    }
+  }
+}

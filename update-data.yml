@@ -1,0 +1,36 @@
+name: Update NFL data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 10 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nfl-data-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Download and normalize current NFL statistics
+        env:
+          NFL_SEASON: ${{ vars.NFL_SEASON }}
+        run: node scripts/update-stats.mjs
+      - name: Test simulator and normalized data
+        run: npm test
+      - name: Commit changed data
+        run: |
+          git config user.name "NFL Data Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/live-data.json
+          git diff --cached --quiet || git commit -m "Update NFL data"
+          git push

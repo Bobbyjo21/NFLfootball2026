@@ -189,4 +189,3 @@ console.log(
 if (warnings.length) {
   console.warn(warnings.join('\n'));
 }
-

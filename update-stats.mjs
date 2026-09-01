@@ -190,4 +190,3 @@ if (warnings.length) {
   console.warn(warnings.join('\n'));
 }
 
-Get Outlook for iOS

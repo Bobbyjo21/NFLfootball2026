@@ -27,10 +27,10 @@ jobs:
       - name: Download current NFL statistics
         env:
           NFL_SEASON: ${{ vars.NFL_SEASON }}
-        run: node scripts/update-stats.mjs
+        run: node update-stats.mjs
 
       - name: Test simulator
-        run: npm test
+        run: node test-normalize.mjs && node test-browser.mjs
 
       - name: Commit updated data
         run: |

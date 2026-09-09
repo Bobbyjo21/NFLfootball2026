@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-09-08T10:26:29.430Z",
+  "updatedAt": "2026-09-09T10:26:27.777Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1603,6 +1603,20 @@
   },
   "games": [
     {
+      "id": "401872656",
+      "week": 1,
+      "seasonType": 2,
+      "startDate": "2026-09-10T00:20Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 28,
+      "venue": "Lumen Field",
+      "homeTeam": "Seattle Seahawks",
+      "awayTeam": "New England Patriots",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
+    {
       "id": "401772969",
       "week": 18,
       "seasonType": 2,
@@ -1825,20 +1839,6 @@
       "awayTeam": "Baltimore Ravens",
       "homePoints": 26,
       "awayPoints": 24
-    },
-    {
-      "id": "401872656",
-      "week": 1,
-      "seasonType": 2,
-      "startDate": "2026-09-10T00:20Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 28,
-      "venue": "Lumen Field",
-      "homeTeam": "Seattle Seahawks",
-      "awayTeam": "New England Patriots",
-      "homePoints": 0,
-      "awayPoints": 0
     },
     {
       "id": "401872657",

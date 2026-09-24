@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-09-23T10:25:18.702Z",
+  "updatedAt": "2026-09-24T10:25:34.144Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1633,6 +1633,20 @@
   },
   "games": [
     {
+      "id": "401872948",
+      "week": 3,
+      "seasonType": 2,
+      "startDate": "2026-09-25T00:15Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 11,
+      "venue": "Lambeau Field",
+      "homeTeam": "Green Bay Packers",
+      "awayTeam": "Atlanta Falcons",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
+    {
       "id": "401772969",
       "week": 18,
       "seasonType": 2,
@@ -2303,20 +2317,6 @@
       "awayTeam": "New York Giants",
       "homePoints": 28,
       "awayPoints": 6
-    },
-    {
-      "id": "401872948",
-      "week": 3,
-      "seasonType": 2,
-      "startDate": "2026-09-25T00:15Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 11,
-      "venue": "Lambeau Field",
-      "homeTeam": "Green Bay Packers",
-      "awayTeam": "Atlanta Falcons",
-      "homePoints": 0,
-      "awayPoints": 0
     },
     {
       "id": "401872953",

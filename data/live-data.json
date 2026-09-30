@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-09-29T10:28:30.047Z",
+  "updatedAt": "2026-09-30T10:28:28.301Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -2788,6 +2788,20 @@
       "awayPoints": 0
     },
     {
+      "id": "401872990",
+      "week": 5,
+      "seasonType": 2,
+      "startDate": "2026-10-11T17:00Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 11,
+      "venue": "Lambeau Field",
+      "homeTeam": "Green Bay Packers",
+      "awayTeam": "Chicago Bears",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
+    {
       "id": "401872984",
       "week": 5,
       "seasonType": 2,
@@ -2896,20 +2910,6 @@
       "venue": "SoFi Stadium",
       "homeTeam": "Los Angeles Chargers",
       "awayTeam": "Denver Broncos",
-      "homePoints": 0,
-      "awayPoints": 0
-    },
-    {
-      "id": "401872990",
-      "week": 5,
-      "seasonType": 2,
-      "startDate": "2026-10-11T20:25Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 11,
-      "venue": "Lambeau Field",
-      "homeTeam": "Green Bay Packers",
-      "awayTeam": "Chicago Bears",
       "homePoints": 0,
       "awayPoints": 0
     },

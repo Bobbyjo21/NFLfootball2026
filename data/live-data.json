@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-09-30T10:28:28.301Z",
+  "updatedAt": "2026-10-01T10:28:56.863Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1640,6 +1640,20 @@
   },
   "games": [
     {
+      "id": "401872964",
+      "week": 4,
+      "seasonType": 2,
+      "startDate": "2026-10-02T00:15Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 7,
+      "venue": "Huntington Bank Field",
+      "homeTeam": "Cleveland Browns",
+      "awayTeam": "Pittsburgh Steelers",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
+    {
       "id": "401772969",
       "week": 18,
       "seasonType": 2,
@@ -2534,20 +2548,6 @@
       "awayTeam": "Philadelphia Eagles",
       "homePoints": 27,
       "awayPoints": 7
-    },
-    {
-      "id": "401872964",
-      "week": 4,
-      "seasonType": 2,
-      "startDate": "2026-10-02T00:15Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 7,
-      "venue": "Huntington Bank Field",
-      "homeTeam": "Cleveland Browns",
-      "awayTeam": "Pittsburgh Steelers",
-      "homePoints": 0,
-      "awayPoints": 0
     },
     {
       "id": "401872965",

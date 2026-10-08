@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-07T17:24:54.311Z",
+  "updatedAt": "2026-10-08T17:23:40.204Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1640,6 +1640,20 @@
   },
   "games": [
     {
+      "id": "401872980",
+      "week": 5,
+      "seasonType": 2,
+      "startDate": "2026-10-09T00:15Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 8,
+      "venue": "AT&T Stadium",
+      "homeTeam": "Dallas Cowboys",
+      "awayTeam": "Tampa Bay Buccaneers",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
+    {
       "id": "401772969",
       "week": 18,
       "seasonType": 2,
@@ -2758,20 +2772,6 @@
       "awayTeam": "Atlanta Falcons",
       "homePoints": 24,
       "awayPoints": 45
-    },
-    {
-      "id": "401872980",
-      "week": 5,
-      "seasonType": 2,
-      "startDate": "2026-10-09T00:15Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 8,
-      "venue": "AT&T Stadium",
-      "homeTeam": "Dallas Cowboys",
-      "awayTeam": "Tampa Bay Buccaneers",
-      "homePoints": 0,
-      "awayPoints": 0
     },
     {
       "id": "401872981",

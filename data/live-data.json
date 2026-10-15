@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-14T15:06:33.176Z",
+  "updatedAt": "2026-10-15T14:59:29.770Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1642,6 +1642,20 @@
   },
   "games": [
     {
+      "id": "401872995",
+      "week": 6,
+      "seasonType": 2,
+      "startDate": "2026-10-16T00:15Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 9,
+      "venue": "Empower Field at Mile High",
+      "homeTeam": "Denver Broncos",
+      "awayTeam": "Seattle Seahawks",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
+    {
       "id": "401772969",
       "week": 18,
       "seasonType": 2,
@@ -2970,20 +2984,6 @@
       "awayTeam": "Buffalo Bills",
       "homePoints": 34,
       "awayPoints": 37
-    },
-    {
-      "id": "401872995",
-      "week": 6,
-      "seasonType": 2,
-      "startDate": "2026-10-16T00:15Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 9,
-      "venue": "Empower Field at Mile High",
-      "homeTeam": "Denver Broncos",
-      "awayTeam": "Seattle Seahawks",
-      "homePoints": 0,
-      "awayPoints": 0
     },
     {
       "id": "401872996",

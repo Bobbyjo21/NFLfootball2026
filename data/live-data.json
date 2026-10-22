@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-21T15:12:43.547Z",
+  "updatedAt": "2026-10-22T15:15:13.107Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1642,6 +1642,20 @@
   },
   "games": [
     {
+      "id": "401873010",
+      "week": 7,
+      "seasonType": 2,
+      "startDate": "2026-10-23T00:15Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 5,
+      "venue": "Soldier Field",
+      "homeTeam": "Chicago Bears",
+      "awayTeam": "New England Patriots",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
+    {
       "id": "401772969",
       "week": 18,
       "seasonType": 2,
@@ -3166,20 +3180,6 @@
       "awayTeam": "Washington Commanders",
       "homePoints": 23,
       "awayPoints": 17
-    },
-    {
-      "id": "401873010",
-      "week": 7,
-      "seasonType": 2,
-      "startDate": "2026-10-23T00:15Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 5,
-      "venue": "Soldier Field",
-      "homeTeam": "Chicago Bears",
-      "awayTeam": "New England Patriots",
-      "homePoints": 0,
-      "awayPoints": 0
     },
     {
       "id": "401873011",

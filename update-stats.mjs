@@ -34,10 +34,29 @@ async function optional(label, path) {
 }
 
 async function getRegularSeasonScoreboard(season) {
-  return optional(
+  const base = await optional(
     `${season} regular season`,
     `/scoreboard?dates=${season}&seasontype=${REGULAR_SEASON_TYPE}&limit=400`
   );
+
+  // ESPN's season-wide scoreboard can omit future matchups. Fetch every
+  // regular-season week as well and merge by event ID.
+  const byId = new Map((base?.events ?? []).map(event => [event.id, event]));
+  const weekly = await Promise.all(
+    Array.from({ length: 18 }, (_, index) => index + 1).map(week =>
+      optional(
+        `${season} week ${week}`,
+        `/scoreboard?dates=${season}&seasontype=${REGULAR_SEASON_TYPE}&week=${week}&limit=40`
+      )
+    )
+  );
+  for (const board of weekly) {
+    for (const event of board?.events ?? []) {
+      if (event.id) byId.set(event.id, event);
+    }
+  }
+  if (!base && byId.size === 0) return null;
+  return { ...(base ?? {}), events: [...byId.values()] };
 }
 
 /*

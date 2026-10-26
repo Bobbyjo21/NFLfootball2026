@@ -105,9 +105,20 @@ if (!selectedBoard) {
 }
 
 const eventMap = new Map();
+const seasonStart = Date.parse(`${season}-08-01T00:00:00Z`);
+const seasonEnd = Date.parse(`${season + 1}-03-01T00:00:00Z`);
 
 for (const event of selectedBoard.events ?? []) {
   if (Number(event.season?.type) !== REGULAR_SEASON_TYPE) {
+    continue;
+  }
+  // ESPN dates=YYYY also returns January games from the *previous*
+  // season. They must never contaminate the selected season's stats.
+  const kickoff = Date.parse(event.date);
+  if (!Number.isFinite(kickoff) || kickoff < seasonStart || kickoff >= seasonEnd) {
+    continue;
+  }
+  if (event.season?.year != null && Number(event.season.year) !== season) {
     continue;
   }
 

@@ -3,7 +3,7 @@ name: Update NFL data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 10 * * *"
+    - cron: "15 10,16,22 * * *"
 
 permissions:
   contents: write

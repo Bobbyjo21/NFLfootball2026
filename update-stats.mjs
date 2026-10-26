@@ -76,6 +76,8 @@ const currentSeasonHasCompletedGame =
   currentSeasonEvents.some(
     event =>
       Number(event.season?.type) === REGULAR_SEASON_TYPE &&
+      (event.season?.year == null || Number(event.season.year) === CURRENT_SEASON) &&
+      Date.parse(event.date) >= Date.parse(`${CURRENT_SEASON}-08-01T00:00:00Z`) &&
       event.status?.type?.completed === true
   );
 

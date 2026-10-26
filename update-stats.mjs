@@ -192,6 +192,13 @@ const output = normalizeNFL({
   warnings
 });
 
+// Preserve the last good snapshot if ESPN returns a partial season.
+if (Object.keys(output.teams).length !== 32 || games.length < 200) {
+  throw new Error(
+    `NFL feed incomplete: ${Object.keys(output.teams).length} teams and ${games.length} games. Keeping previous published data.`
+  );
+}
+
 await fs.mkdir('data', { recursive: true });
 
 await fs.writeFile(

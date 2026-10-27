@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-26T21:00:26.753Z",
+  "updatedAt": "2026-10-27T01:28:31.587Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1652,8 +1652,8 @@
       "venue": "Lincoln Financial Field",
       "homeTeam": "Philadelphia Eagles",
       "awayTeam": "Dallas Cowboys",
-      "homePoints": 0,
-      "awayPoints": 0
+      "homePoints": 14,
+      "awayPoints": 17
     },
     {
       "id": "401872656",
@@ -3476,20 +3476,6 @@
       "awayPoints": 0
     },
     {
-      "id": "401873047",
-      "week": 9,
-      "seasonType": 2,
-      "startDate": "2026-11-08T21:05Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 27,
-      "venue": "Levi's Stadium",
-      "homeTeam": "San Francisco 49ers",
-      "awayTeam": "Las Vegas Raiders",
-      "homePoints": 0,
-      "awayPoints": 0
-    },
-    {
       "id": "401873049",
       "week": 9,
       "seasonType": 2,
@@ -3500,6 +3486,20 @@
       "venue": "Gillette Stadium",
       "homeTeam": "New England Patriots",
       "awayTeam": "Green Bay Packers",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
+    {
+      "id": "401873047",
+      "week": 9,
+      "seasonType": 2,
+      "startDate": "2026-11-08T21:25Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 27,
+      "venue": "Levi's Stadium",
+      "homeTeam": "San Francisco 49ers",
+      "awayTeam": "Las Vegas Raiders",
       "homePoints": 0,
       "awayPoints": 0
     },

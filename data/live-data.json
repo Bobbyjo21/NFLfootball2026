@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-29T01:47:41.144Z",
+  "updatedAt": "2026-10-29T16:55:36.930Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1642,6 +1642,20 @@
   },
   "games": [
     {
+      "id": "401873023",
+      "week": 8,
+      "seasonType": 2,
+      "startDate": "2026-10-30T00:15Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 11,
+      "venue": "Lambeau Field",
+      "homeTeam": "Green Bay Packers",
+      "awayTeam": "Carolina Panthers",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
+    {
       "id": "401872656",
       "week": 1,
       "seasonType": 2,
@@ -3138,20 +3152,6 @@
       "awayTeam": "Dallas Cowboys",
       "homePoints": 21,
       "awayPoints": 38
-    },
-    {
-      "id": "401873023",
-      "week": 8,
-      "seasonType": 2,
-      "startDate": "2026-10-30T00:15Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 11,
-      "venue": "Lambeau Field",
-      "homeTeam": "Green Bay Packers",
-      "awayTeam": "Carolina Panthers",
-      "homePoints": 0,
-      "awayPoints": 0
     },
     {
       "id": "401873026",

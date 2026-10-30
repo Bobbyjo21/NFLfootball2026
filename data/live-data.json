@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-10-29T16:55:36.930Z",
+  "updatedAt": "2026-10-30T01:57:06.577Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1652,8 +1652,8 @@
       "venue": "Lambeau Field",
       "homeTeam": "Green Bay Packers",
       "awayTeam": "Carolina Panthers",
-      "homePoints": 0,
-      "awayPoints": 0
+      "homePoints": 19,
+      "awayPoints": 10
     },
     {
       "id": "401872656",

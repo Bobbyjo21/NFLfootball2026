@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-02T20:21:08.770Z",
+  "updatedAt": "2026-11-03T03:28:36.476Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1652,8 +1652,8 @@
       "venue": "Lumen Field",
       "homeTeam": "Seattle Seahawks",
       "awayTeam": "Chicago Bears",
-      "homePoints": 0,
-      "awayPoints": 0
+      "homePoints": 9,
+      "awayPoints": 20
     },
     {
       "id": "401872656",

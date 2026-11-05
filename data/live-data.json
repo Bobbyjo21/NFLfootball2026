@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-05T02:25:48.097Z",
+  "updatedAt": "2026-11-05T17:59:57.688Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1641,6 +1641,20 @@
     }
   },
   "games": [
+    {
+      "id": "401873037",
+      "week": 9,
+      "seasonType": 2,
+      "startDate": "2026-11-06T01:15Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 2,
+      "venue": "M&T Bank Stadium",
+      "homeTeam": "Baltimore Ravens",
+      "awayTeam": "Jacksonville Jaguars",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
     {
       "id": "401872656",
       "week": 1,
@@ -3334,20 +3348,6 @@
       "awayTeam": "Chicago Bears",
       "homePoints": 17,
       "awayPoints": 34
-    },
-    {
-      "id": "401873037",
-      "week": 9,
-      "seasonType": 2,
-      "startDate": "2026-11-06T01:15Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 2,
-      "venue": "M&T Bank Stadium",
-      "homeTeam": "Baltimore Ravens",
-      "awayTeam": "Jacksonville Jaguars",
-      "homePoints": 0,
-      "awayPoints": 0
     },
     {
       "id": "401873038",

@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-05T17:59:57.688Z",
+  "updatedAt": "2026-11-06T02:24:50.770Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1652,8 +1652,8 @@
       "venue": "M&T Bank Stadium",
       "homeTeam": "Baltimore Ravens",
       "awayTeam": "Jacksonville Jaguars",
-      "homePoints": 0,
-      "awayPoints": 0
+      "homePoints": 3,
+      "awayPoints": 10
     },
     {
       "id": "401872656",

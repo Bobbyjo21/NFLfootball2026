@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-09T20:42:32.506Z",
+  "updatedAt": "2026-11-10T04:06:19.263Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1652,8 +1652,8 @@
       "venue": "U.S. Bank Stadium",
       "homeTeam": "Minnesota Vikings",
       "awayTeam": "Buffalo Bills",
-      "homePoints": 0,
-      "awayPoints": 0
+      "homePoints": 6,
+      "awayPoints": 10
     },
     {
       "id": "401872656",

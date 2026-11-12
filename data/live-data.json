@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-12T02:57:09.492Z",
+  "updatedAt": "2026-11-12T18:18:25.128Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1641,6 +1641,20 @@
     }
   },
   "games": [
+    {
+      "id": "401873052",
+      "week": 10,
+      "seasonType": 2,
+      "startDate": "2026-11-13T01:15Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 23,
+      "venue": "MetLife Stadium",
+      "homeTeam": "New York Giants",
+      "awayTeam": "Washington Commanders",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
     {
       "id": "401872656",
       "week": 1,
@@ -3544,20 +3558,6 @@
       "awayTeam": "Buffalo Bills",
       "homePoints": 6,
       "awayPoints": 23
-    },
-    {
-      "id": "401873052",
-      "week": 10,
-      "seasonType": 2,
-      "startDate": "2026-11-13T01:15Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 23,
-      "venue": "MetLife Stadium",
-      "homeTeam": "New York Giants",
-      "awayTeam": "Washington Commanders",
-      "homePoints": 0,
-      "awayPoints": 0
     },
     {
       "id": "401873053",

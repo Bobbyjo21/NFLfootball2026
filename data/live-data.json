@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-12T18:18:25.128Z",
+  "updatedAt": "2026-11-13T02:37:25.718Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1652,8 +1652,8 @@
       "venue": "MetLife Stadium",
       "homeTeam": "New York Giants",
       "awayTeam": "Washington Commanders",
-      "homePoints": 0,
-      "awayPoints": 0
+      "homePoints": 7,
+      "awayPoints": 10
     },
     {
       "id": "401872656",

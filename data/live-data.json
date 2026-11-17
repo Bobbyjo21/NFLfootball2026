@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-17T04:28:58.172Z",
+  "updatedAt": "2026-11-17T19:10:18.541Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1641,20 +1641,6 @@
     }
   },
   "games": [
-    {
-      "id": "401873065",
-      "week": 10,
-      "seasonType": 2,
-      "startDate": "2026-11-17T01:15Z",
-      "completed": true,
-      "neutralSite": false,
-      "venueId": 2,
-      "venue": "M&T Bank Stadium",
-      "homeTeam": "Baltimore Ravens",
-      "awayTeam": "Los Angeles Chargers",
-      "homePoints": 20,
-      "awayPoints": 23
-    },
     {
       "id": "401872656",
       "week": 1,
@@ -3742,6 +3728,20 @@
       "awayPoints": 18
     },
     {
+      "id": "401873065",
+      "week": 10,
+      "seasonType": 2,
+      "startDate": "2026-11-17T01:15Z",
+      "completed": true,
+      "neutralSite": false,
+      "venueId": 2,
+      "venue": "M&T Bank Stadium",
+      "homeTeam": "Baltimore Ravens",
+      "awayTeam": "Los Angeles Chargers",
+      "homePoints": 20,
+      "awayPoints": 23
+    },
+    {
       "id": "401873066",
       "week": 11,
       "seasonType": 2,
@@ -4008,20 +4008,6 @@
       "awayPoints": 0
     },
     {
-      "id": "401873086",
-      "week": 12,
-      "seasonType": 2,
-      "startDate": "2026-11-29T18:00Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 7,
-      "venue": "Huntington Bank Field",
-      "homeTeam": "Cleveland Browns",
-      "awayTeam": "Las Vegas Raiders",
-      "homePoints": 0,
-      "awayPoints": 0
-    },
-    {
       "id": "401873088",
       "week": 12,
       "seasonType": 2,
@@ -4064,6 +4050,20 @@
       "awayPoints": 0
     },
     {
+      "id": "401873090",
+      "week": 12,
+      "seasonType": 2,
+      "startDate": "2026-11-29T21:05Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 14,
+      "venue": "EverBank Stadium",
+      "homeTeam": "Jacksonville Jaguars",
+      "awayTeam": "Tennessee Titans",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
+    {
       "id": "401873085",
       "week": 12,
       "seasonType": 2,
@@ -4078,16 +4078,16 @@
       "awayPoints": 0
     },
     {
-      "id": "401873090",
+      "id": "401873093",
       "week": 12,
       "seasonType": 2,
-      "startDate": "2026-11-29T21:05Z",
+      "startDate": "2026-11-30T01:20Z",
       "completed": false,
       "neutralSite": false,
-      "venueId": 14,
-      "venue": "EverBank Stadium",
-      "homeTeam": "Jacksonville Jaguars",
-      "awayTeam": "Tennessee Titans",
+      "venueId": 17,
+      "venue": "SoFi Stadium",
+      "homeTeam": "Los Angeles Chargers",
+      "awayTeam": "New England Patriots",
       "homePoints": 0,
       "awayPoints": 0
     },
@@ -4120,16 +4120,16 @@
       "awayPoints": 0
     },
     {
-      "id": "401873093",
+      "id": "401873086",
       "week": 12,
       "seasonType": 2,
-      "startDate": "2026-11-30T01:20Z",
+      "startDate": "2026-11-29T18:00Z",
       "completed": false,
       "neutralSite": false,
-      "venueId": 17,
-      "venue": "SoFi Stadium",
-      "homeTeam": "Los Angeles Chargers",
-      "awayTeam": "New England Patriots",
+      "venueId": 7,
+      "venue": "Huntington Bank Field",
+      "homeTeam": "Cleveland Browns",
+      "awayTeam": "Las Vegas Raiders",
       "homePoints": 0,
       "awayPoints": 0
     },

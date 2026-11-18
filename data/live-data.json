@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-17T19:10:18.541Z",
+  "updatedAt": "2026-11-18T03:42:16.167Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -4053,7 +4053,7 @@
       "id": "401873090",
       "week": 12,
       "seasonType": 2,
-      "startDate": "2026-11-29T21:05Z",
+      "startDate": "2026-11-29T18:00Z",
       "completed": false,
       "neutralSite": false,
       "venueId": 14,
@@ -4081,7 +4081,7 @@
       "id": "401873093",
       "week": 12,
       "seasonType": 2,
-      "startDate": "2026-11-30T01:20Z",
+      "startDate": "2026-11-29T21:05Z",
       "completed": false,
       "neutralSite": false,
       "venueId": 17,
@@ -4123,7 +4123,7 @@
       "id": "401873086",
       "week": 12,
       "seasonType": 2,
-      "startDate": "2026-11-29T18:00Z",
+      "startDate": "2026-11-30T01:20Z",
       "completed": false,
       "neutralSite": false,
       "venueId": 7,

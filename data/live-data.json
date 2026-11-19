@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-19T03:23:40.430Z",
+  "updatedAt": "2026-11-19T18:58:44.379Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1641,6 +1641,20 @@
     }
   },
   "games": [
+    {
+      "id": "401873066",
+      "week": 11,
+      "seasonType": 2,
+      "startDate": "2026-11-20T01:15Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 12,
+      "venue": "Reliant Stadium",
+      "homeTeam": "Houston Texans",
+      "awayTeam": "Indianapolis Colts",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
     {
       "id": "401872656",
       "week": 1,
@@ -3740,20 +3754,6 @@
       "awayTeam": "Los Angeles Chargers",
       "homePoints": 20,
       "awayPoints": 23
-    },
-    {
-      "id": "401873066",
-      "week": 11,
-      "seasonType": 2,
-      "startDate": "2026-11-20T01:15Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 12,
-      "venue": "Reliant Stadium",
-      "homeTeam": "Houston Texans",
-      "awayTeam": "Indianapolis Colts",
-      "homePoints": 0,
-      "awayPoints": 0
     },
     {
       "id": "401873070",

@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "updatedAt": "2026-11-25T04:53:35.749Z",
+  "updatedAt": "2026-11-25T19:55:56.068Z",
   "sources": {
     "espn": true,
     "weather": "Open-Meteo at simulation time"
@@ -1641,6 +1641,20 @@
     }
   },
   "games": [
+    {
+      "id": "401873079",
+      "week": 12,
+      "seasonType": 2,
+      "startDate": "2026-11-26T01:00Z",
+      "completed": false,
+      "neutralSite": false,
+      "venueId": 18,
+      "venue": "SoFi Stadium",
+      "homeTeam": "Los Angeles Rams",
+      "awayTeam": "Green Bay Packers",
+      "homePoints": 0,
+      "awayPoints": 0
+    },
     {
       "id": "401872656",
       "week": 1,
@@ -3922,20 +3936,6 @@
       "awayTeam": "Cincinnati Bengals",
       "homePoints": 22,
       "awayPoints": 20
-    },
-    {
-      "id": "401873079",
-      "week": 12,
-      "seasonType": 2,
-      "startDate": "2026-11-26T01:00Z",
-      "completed": false,
-      "neutralSite": false,
-      "venueId": 18,
-      "venue": "SoFi Stadium",
-      "homeTeam": "Los Angeles Rams",
-      "awayTeam": "Green Bay Packers",
-      "homePoints": 0,
-      "awayPoints": 0
     },
     {
       "id": "401873081",
